@@ -1,0 +1,8 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { overflow: hidden; }
+
+#wrap {
+  opacity: 1;
+  transition: opacity 0.8s; /* 0.8초 동안 페이드 아웃 */
+}
+#wrap.on { opacity: 0;}
